@@ -219,14 +219,17 @@ nav {
 .container-violet-benefits-white{
     background-color: white;
     text-align: left;
-    margin-left: 33px;
-    margin-right: 33px;
+    margin: 0px 33px 33px 33px;
     color: #9792e4;
     border-radius: 12px;
     padding-bottom: 32px;
-    margin-bottom: 32px;
 }
 /* fine section benefits */
+
+
+/* inizio sezione about us */
+/* fine sezione about us */
+
 
 
 
