@@ -169,7 +169,36 @@ nav {
 
 
 /* inizio section testimonials */
+.container-testimonials-text{
+    text-align: center;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.container-testimonials1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-testimonials1-img{
+    background-color: #9792e4;
+    width: 100%;
+    text-align: center;
+    margin-left: 33px;
+    margin-right: 33px;
+    padding: 32px 0px 38px 0px;
+    border-radius: 10%;
+    margin-bottom: 32px;
+}
 
+.container-testimonials1-img img{
+    width: 60%;
+    border-radius: 50%;
+}
+.container-testimonials1-text{
+    text-align: center;
+    margin-left: 33px;
+    margin-right: 33px;
+}
 /* fine section testimonials */
 
 
