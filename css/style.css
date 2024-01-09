@@ -14,7 +14,10 @@ body{
 
 /* sezione navbar */
 nav {
+    width: 100%;
+    margin: 0 auto;
     background-color: #0084fd;
+    margin-bottom: 50px;
 }
 
 .logo-link{
@@ -51,6 +54,12 @@ nav {
     color: white;
 }
 
+.nav-links ul i{
+    display: none;
+    font-size: 26px;
+    color: white;
+}
+
 #start{
     margin-left: 15px;
 
@@ -63,3 +72,44 @@ nav {
 }
 
 /* fine sezione navabr */
+
+
+/* inizio header */
+.container-get{
+    background-color: #b5ddff;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.container-image{
+    width: 100%;
+    text-align: center;
+}
+
+.container-image img{
+    width: 60%;
+}
+/*  fine hader*/
+
+
+
+/* media query*/
+/* versione mobile */
+@media screen and (max-width: 480px) {
+    .nav-link,#start{
+        display: none;
+    }
+
+    .logo-link{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .nav-links ul i{
+        display: block;
+    }
+}
