@@ -81,10 +81,6 @@ nav {
     margin-right: 33px;
 }
 
-.container-get .container-text #button{
-    text-align: center;
-}
-
 .container-image{
     width: 100%;
     text-align: center;
@@ -265,7 +261,7 @@ footer{
 
 /* media query*/
 /* versione mobile */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .nav-links ul i{
         display: block;
     }
@@ -277,12 +273,37 @@ footer{
 
 
 /* versione laptop */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .nav-links ul i{
         display: block;
     }
 
     .nav-link,#start{
         display: none;
+    }
+
+    .container-image{
+        width: 100%;
+        text-align: left;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .container .container-get{
+        width: calc(100% / 3 * 2 - 40px);
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 20px;
+    }
+
+    .container .icon-text{
+        width: calc(100% / 3 - 60px);
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
