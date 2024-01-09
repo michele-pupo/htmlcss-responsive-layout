@@ -231,7 +231,8 @@ nav {
 .container-about{
     text-align: center;
     margin-left: 33px;
-    margin-right: 33px
+    margin-right: 33px;
+    margin-bottom: 80px;
 }
 
 .container-about-img-text{
@@ -247,6 +248,10 @@ nav {
     border-radius: 50%;
 }
 /* fine sezione about us */
+
+
+/* inizio sexione get sturted */
+/* fine sezione get sturted */
 
 
 
