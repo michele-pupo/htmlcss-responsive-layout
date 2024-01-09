@@ -228,6 +228,24 @@ nav {
 
 
 /* inizio sezione about us */
+.container-about{
+    text-align: center;
+    margin-left: 33px;
+    margin-right: 33px
+}
+
+.container-about-img-text{
+    text-align: left;
+}
+
+.container-about-img{
+    width: 100%;
+}
+
+.container-about-img img{
+    width: 60%;
+    border-radius: 50%;
+}
 /* fine sezione about us */
 
 
