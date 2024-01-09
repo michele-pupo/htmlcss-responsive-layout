@@ -27,9 +27,8 @@ nav {
     margin-right: auto;
     height: 75px;
     display: flex;
-
     justify-content: space-between;
-    padding: 20px;
+    padding: 33px;
     align-items: center;
 }
 
@@ -264,22 +263,26 @@ footer{
 
 
 
-
 /* media query*/
 /* versione mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+    .nav-links ul i{
+        display: block;
+    }
+
     .nav-link,#start{
         display: none;
     }
+}
 
-    .logo-link{
-        max-width: 100%;
-        margin: 0 auto;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    
+
+/* versione laptop */
+@media screen and (max-width: 992px) {
     .nav-links ul i{
         display: block;
+    }
+
+    .nav-link,#start{
+        display: none;
     }
 }
