@@ -262,6 +262,8 @@ footer{
 /* media query*/
 /* versione mobile */
 @media screen and (min-width: 320px) {
+
+    /* navbar */
     .nav-links ul li a{
         display: none;
     }
@@ -278,6 +280,8 @@ footer{
 
 /* versione laptop */
 @media screen and (min-width: 992px) {
+
+    /* navbar */
     .nav-links ul li a{
         display: none;
     }
@@ -290,6 +294,8 @@ footer{
         display: block;
     }
 
+
+    /* section 5 quadrati azzurri */
     .container-image{
         width: 100%;
         text-align: left;
@@ -314,5 +320,34 @@ footer{
         width: calc(100% / 3 - 15px);
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+
+    /* section testimonials */
+    .container-testimonials1-img,
+    .container-testimonials2-img,
+    .container-testimonials3-img{
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        border-radius: 25px;
+    }
+
+    .container-testimonials1 .container-testimonials1-photo,
+    .container-testimonials2 .container-testimonials2-photo,
+    .container-testimonials3 .container-testimonials3-photo{
+        width: calc(100% / 3);
+    }
+
+    .container-testimonials1 .container-testimonials1-img .container-testimonials1-photo img,
+    .container-testimonials2 .container-testimonials2-img .container-testimonials2-photo img,
+    .container-testimonials3 .container-testimonials3-img .container-testimonials3-photo img{
+        width: 100%;
+    }
+
+    .container-testimonials1 .container-testimonials1-text,
+    .container-testimonials2 .container-testimonials2-text,
+    .container-testimonials3 .container-testimonials3-text{
+        text-align: left;
     }
 }
