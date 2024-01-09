@@ -74,13 +74,15 @@ nav {
 /* fine sezione navabr */
 
 
-/* inizio header */
+/* inizio section 5 quadrati azzurri */
 .container-get{
     background-color: #b5ddff;
     width: 310px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    margin-bottom: 24px;
+    padding: 32px 32px 0px 32px;
 }
 
 .container-image{
@@ -91,7 +93,26 @@ nav {
 .container-image img{
     width: 60%;
 }
-/*  fine hader*/
+
+.icon-text{
+    background-color: #b5ddff;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 32px;
+}
+
+.icon-text i{
+    font-size: 80px;
+}
+/*  fine section 5 quadrati azzurri*/
+
+
+/* inizio section strategic planning */
+
+/* fine section strategic planning */
 
 
 
