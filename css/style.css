@@ -174,12 +174,16 @@ nav {
     margin-left: 33px;
     margin-right: 33px;
 }
-.container-testimonials1{
+.container-testimonials1,
+.container-testimonials2,
+.container-testimonials3{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.container-testimonials1-img{
+.container-testimonials1-img,
+.container-testimonials2-img,
+.container-testimonials3-img{
     background-color: #9792e4;
     width: 100%;
     text-align: center;
@@ -190,11 +194,15 @@ nav {
     margin-bottom: 32px;
 }
 
-.container-testimonials1-img img{
+.container-testimonials1-img img,
+.container-testimonials2-img img,
+.container-testimonials3-img img{
     width: 60%;
     border-radius: 50%;
 }
-.container-testimonials1-text{
+.container-testimonials1-text,
+.container-testimonials2-text,
+.container-testimonials3-text{
     text-align: center;
     margin-left: 33px;
     margin-right: 33px;
@@ -203,6 +211,21 @@ nav {
 
 
 /* inizio section benefits */
+.container-violet-benefits{
+    background-color: #9792e4;
+    padding-bottom: 64px;
+}
+
+.container-violet-benefits-white{
+    background-color: white;
+    text-align: left;
+    margin-left: 33px;
+    margin-right: 33px;
+    color: #9792e4;
+    border-radius: 12px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
 /* fine section benefits */
 
 
