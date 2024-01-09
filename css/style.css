@@ -15,7 +15,8 @@ body{
 /* sezione navbar */
 nav {
     width: 100%;
-    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: #0084fd;
     margin-bottom: 50px;
 }
@@ -77,12 +78,15 @@ nav {
 /* inizio section 5 quadrati azzurri */
 .container-get{
     background-color: #b5ddff;
-    width: 310px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
     margin-bottom: 24px;
     padding: 32px 32px 0px 32px;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.container-get .container-text #button{
+    text-align: center;
 }
 
 .container-image{
@@ -96,9 +100,8 @@ nav {
 
 .icon-text{
     background-color: #b5ddff;
-    width: 310px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 33px;
+    margin-right: 33px;
     text-align: center;
     margin-bottom: 24px;
     padding: 32px;
@@ -111,7 +114,57 @@ nav {
 
 
 /* inizio section strategic planning */
+.container-violet-planning{
+    background-color: #9792e4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    padding-bottom: 65px;
+}
 
+.container-violet-planning-img{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.container-violet-planning img{
+    width: 60%;
+}
+
+.container-violet-planning-text{
+    text-align: left;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.container-violet-planning-text h2{
+    margin-bottom: 58px;
+}
+
+.container-white{
+    background-color: white;
+    margin-left: 33px;
+    margin-right: 33px;
+    padding-bottom: 33px;
+}
+
+.container-white-img{
+    width: 100%;
+    text-align: center;
+}
+
+.container-white-text{
+    text-align: left;
+    margin-left: 33px;
+    margin-right: 33px; 
+}
+
+.container-white-text #arrow{
+    text-align: center;
+}
 /* fine section strategic planning */
 
 
