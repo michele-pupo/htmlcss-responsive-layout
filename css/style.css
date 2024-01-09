@@ -26,9 +26,6 @@ nav {
     margin-left: auto;
     margin-right: auto;
     height: 75px;
-    top: 0px;
-    left: 0;
-    right: 0;
     display: flex;
 
     justify-content: space-between;
@@ -259,6 +256,10 @@ nav {
 
 
 /* inizio footer */
+footer{
+    background-color: #333333;
+    text-align: center;
+}
 /* fine footer */
 
 
