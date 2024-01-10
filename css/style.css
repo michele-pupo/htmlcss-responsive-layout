@@ -275,7 +275,7 @@ footer{
     .nav-links ul li i{
         display: block;
     }
-}
+} 
 
 
 /* versione laptop */
@@ -461,20 +461,27 @@ footer{
     .container-violet-benefits{
         padding-bottom: 0px;
     }
-}   .container-violet-benefits-cards{
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: space-between;
+
+   .container-violet-benefits-cards{
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: space-between;
+    }
+
+    .container-violet-benefits-white{
+        width: calc(100% / 3 - 15px);
+        margin: 0px 0px 20px 0px;
+    }
+
+
+
+    /* section about us */
+    .container-about{
+        max-width: 1050px;
+        margin: 0 auto;
+    }
 }
-
-.container-violet-benefits-white{
-    width: calc(100% / 3 - 15px);
-    margin: 0px 0px 20px 0px;
-}
-
-
-/* section about us */
