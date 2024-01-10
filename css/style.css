@@ -409,10 +409,43 @@ footer{
         display: none;
     }
 
+
     /* section 5 quadrati azzurri */
     .container{
         max-width: 1200px;
         margin: 0 auto;
+    }
 
+
+    /* section strategic planning */
+    .container-planning{
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-violet-planning-img{
+        width: calc(100% / 2);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container-white-big{
+        width: calc(100% / 2);
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 200px;
+    }
+
+    .container-violet-planning-img{
+        text-align: left;
+    }
+
+    .container-violet-planning-text{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 200px;
     }
 }
