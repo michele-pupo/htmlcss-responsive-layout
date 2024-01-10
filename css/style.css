@@ -409,5 +409,10 @@ footer{
         display: none;
     }
 
-    
+    /* section 5 quadrati azzurri */
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
 }
