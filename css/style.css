@@ -390,3 +390,24 @@ footer{
         margin-right: 0px;
     }
 }
+
+
+
+/* versione Desktop */
+@media screen and (min-width: 1200px) {
+
+     /* navbar */
+     .nav-links ul li a{
+        display: block;
+    }
+
+    .nav-link,ul li #start{
+        display: block;
+    }
+
+    .nav-links ul li i{
+        display: none;
+    }
+
+    
+}
