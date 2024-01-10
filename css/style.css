@@ -366,4 +366,27 @@ footer{
         margin-left: 0px;
         margin-right: 0px;
     }
+
+
+    /* section about us */
+    .container-about{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-between;
+    }
+
+    .container-about-text{
+        width: calc(100% / 3 * 2 - 80px);
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 20px;
+        text-align: left;
+    }
+
+    .container-about-img-text{
+        width: calc(100% / 3 - 15px);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
