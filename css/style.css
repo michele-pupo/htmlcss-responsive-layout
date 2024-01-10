@@ -234,7 +234,21 @@ nav {
     text-align: center;
     margin-left: 33px;
     margin-right: 33px;
+    margin-top: 68px;
+    margin-bottom: 53px;
 }
+
+.container-testimonials-text h4{
+    font-size: 16px;
+    padding-bottom: 45px;
+}
+
+.container-testimonials-text h2{
+    color: #9792e4;
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+
 .container-testimonials1,
 .container-testimonials2,
 .container-testimonials3{
@@ -242,6 +256,20 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.container-testimonials1 p,
+.container-testimonials2 p,
+.container-testimonials3 p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-testimonials1 h5,
+.container-testimonials2 h5,
+.container-testimonials3 h5{
+    color: white;
+}
+
 .container-testimonials1-img,
 .container-testimonials2-img,
 .container-testimonials3-img{
