@@ -462,6 +462,25 @@ footer{
     background-color: #333333;
     text-align: center;
 }
+
+.footer-text{
+    padding-top: 45px;
+    padding-bottom: 1px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.footer-text p{
+    line-height: 1.4em;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 45px;
+}
+
+.footer-text p span{
+    text-decoration: underline;
+    color: #9792e4;
+}
 /* fine footer */
 
 
