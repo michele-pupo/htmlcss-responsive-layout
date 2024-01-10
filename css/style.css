@@ -448,4 +448,14 @@ footer{
         margin-right: 0px;
         padding-right: 200px;
     }
+
+
+    /* section testimonials */
+    .container-testimonials{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    
 }
