@@ -354,11 +354,26 @@ nav {
     text-align: center;
     margin-left: 33px;
     margin-right: 33px;
-    margin-bottom: 80px;
+}
+
+.container-about-text{
+    margin-bottom: 50px;
+}
+
+.container-about .container-about-text h2{
+    margin-top: 80px;
+    color: #9792e4;
+    font-size: 50px;
+}
+
+.container-about .container-about-text p{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .container-about-img-text{
     text-align: left;
+    margin-top: 80px;
 }
 
 .container-about-img{
@@ -368,6 +383,21 @@ nav {
 .container-about-img img{
     width: 60%;
     border-radius: 50%;
+}
+
+.container-about-img-text h2{
+    color: #9792e4;
+    padding-right: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-about-img-text button{
+    padding: 5px 10px;
+    background-color: #9792e4;
+    border-color: transparent;
+    border-radius: 25px;
+    color: white;
 }
 /* fine sezione about us */
 
