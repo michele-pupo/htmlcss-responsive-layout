@@ -350,4 +350,20 @@ footer{
     .container-testimonials3 .container-testimonials3-text{
         text-align: left;
     }
+
+
+    /* section benefits */
+    .container-violet-benefits-cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 33px;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .container-violet-benefits-white{
+        width: calc(100% / 2 - 20px);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
