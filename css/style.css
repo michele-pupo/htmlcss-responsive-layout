@@ -374,6 +374,7 @@ nav {
 .container-about-img-text{
     text-align: left;
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .container-about-img{
@@ -406,6 +407,52 @@ nav {
 .container-sturted{
     background-color: #9792e4;
     text-align: center;
+}
+
+.container-sturted-text{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.container-sturted-text h3{
+    color: #d5d4f4;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.container-sturted-text h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.container-sturted-text h6{
+    color: #fdc15f;
+    font-size: 65px;
+    margin-bottom: 25px;
+}
+
+.container-sturted-text p{
+    max-width: 350px;
+    margin: 0 auto;
+    color: white;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.container-sturted-text button{
+    background-color: white;
+    color: #9792e4;
+    border-color: transparent;
+    padding: 15px 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.container-sturted-text p span{
+    text-decoration: underline;
 }
 /* fine sezione get sturted */
 
